@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Markazi Text', serif;
+}
+
+body {
+
+}
+
+
+.container {
+
+  background: linear-gradient(180deg, rgba(40,129,227,1) 0%, rgba(46,124,205,1) 47%, rgba(5,119,142,1) 100%);
+  color:white;
+  width: 60%;
+  padding: 1%;
+  display: flex;
+  justify-content:space-around;
+  border-radius: 5px;
+  margin: 2% auto;
+
+}
+
+h1 {
+  width: 40%;
+  margin: 2% auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 250%;
+background: linear-gradient(180deg, rgba(40,129,227,1) 0%, rgba(46,124,205,1) 47%, rgba(5,119,142,1) 100%);
+  color:white;
+  border-radius: 5px;
+}
+
+#aside {
+  width: 25%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin:10%;
+  border-radius: 5px;
+  font-size: 110%;
+  border: none;
+  padding: 1% 1%;
+  background-color: orangered;
+  color:white;
+  box-shadow: 1px 1px 5px black;
+  cursor: pointer;
+}
+ #main {
+   flex:1;
+   padding: 2%;
+  background-color: rgba(82, 82, 82, 1);
+  min-height:30vh;
+  border-radius: 5px;
+  color:white;
+  text-align: center;
+ }
+
+h2 {
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.person {
+  border-bottom: 1px solid white;
+  display: flex;
+  padding: 1% 0;
+  margin: 1% 0;
+  justify-content: space-between;
+}
+
+span {
+  background-color: red;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+h3 {
+  border-bottom: 2px solid white;
+  background-color: white;
+  color:black
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 0;
+}
